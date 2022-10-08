@@ -1,0 +1,16 @@
+.footer {
+  width: 1510px;
+  height: 164px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.link-items {
+  text-align: center;
+  padding-top: 40px;
+}
+
+p {
+  color: #ffffff80;
+  font-size: 18px;
+}
