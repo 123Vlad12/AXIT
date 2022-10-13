@@ -1,0 +1,83 @@
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+}
+
+.container .price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.price-title {
+  font-size: 36px;
+  font-family: "Raleway", sans-serif;
+  height: 70px;
+  margin-top: 50px;
+}
+
+.separator {
+  border: 0.5px solid #ec7979;
+  width: 170px;
+}
+
+.price-subtitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: #86878b;
+  margin-top: 40px;
+}
+
+.price-column {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+  text-align: center;
+}
+.price-column__column {
+  align-self: flex-end;
+}
+
+.price-column__column-title {
+  width: 370px;
+  background-color: #333333;
+  color: #f5f5f5;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  border: 2px solid #f5f5f5;
+  line-height: 50px;
+}
+
+.price-column__column-price {
+  width: 370px;
+  line-height: 100px;
+  background-color: #333333;
+  color: #f5f5f5;
+  border: 2px solid #f5f5f5;
+  font-size: 36px;
+}
+
+.price-column__column-subtitle {
+  width: 370px;
+  line-height: 50px;
+  background-color: #333333;
+  color: #f5f5f5;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  border: 2px solid #f5f5f5;
+}
+
+.line {
+  width: 370px;
+  line-height: 50px;
+  color: #ccc;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  background: #ffffff;
+  border: 2px solid #f5f5f5;
+}
+
+.price-column-cpecial {
+  align-self: flex-start;
+}

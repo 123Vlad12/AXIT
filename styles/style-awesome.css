@@ -1,3 +1,7 @@
+.body {
+  margin: 0;
+}
+
 .page {
   width: 100%;
 }
@@ -45,8 +49,9 @@
   display: inline-block;
 }
 
-p {
+.text {
   font-family: "Raleway", sans-serif;
+  color: #000;
 }
 
 h3 {
