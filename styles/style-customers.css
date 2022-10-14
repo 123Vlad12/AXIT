@@ -33,15 +33,20 @@
   text-align: center;
 }
 
-.customers-column__title {
+.customers-column__column-border {
   width: 370px;
   height: 180px;
   color: #86878b;
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
   background: #e2e2e2;
   border: 2px solid #f5f5f5;
   border-radius: 10px;
+}
+
+.customers-column__title {
+  color: #86878b;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin-top: 25px;
 }
 
 .customers-column__avatar {
@@ -54,7 +59,6 @@
 
 .customers-column__name {
   font-family: "Open Sans", sans-serif;
-  width: 430px;
   font-size: 24px;
   line-height: 32px;
 }
@@ -65,4 +69,14 @@
   line-height: 21px;
   margin-left: -140px;
   margin-top: 15px;
+}
+
+.square {
+  width: 25px;
+  height: 25px;
+  background: #e2e2e2;
+  transform: rotate(45deg);
+  position: relative;
+  top: -153px;
+  left: 70px;
 }
