@@ -1,6 +1,7 @@
 .tabs {
   width: 1170px;
   margin: 0 auto;
+  margin-top: 30px;
 }
 
 .block__tabs .block__tabs1 {
@@ -21,6 +22,7 @@
   width: 180px;
   text-align: center;
   padding: 10px 0;
+  margin: -5px;
 }
 
 .special {
