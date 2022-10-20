@@ -80,3 +80,13 @@
   transform: scale(1.2);
   transition-duration: 1s;
 }
+.price-column__column:hover {
+  transform-origin: top right;
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+.price-column__column:last-child:hover {
+  transform-origin: top left;
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
