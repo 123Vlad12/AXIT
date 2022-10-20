@@ -76,3 +76,7 @@
 .about__image img {
   padding-left: 111px;
 }
+.price-column-cpecial:hover {
+  transform: scale(1.2);
+  transition-duration: 1s;
+}

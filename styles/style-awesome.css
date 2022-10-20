@@ -43,6 +43,10 @@ body {
   width: 100%;
   text-align: center;
 }
+.page__section:hover {
+  transform: rotate(45deg);
+  transition-duration: 2s;
+}
 
 .page__section-1 {
   width: 25%;
