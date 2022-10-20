@@ -1,0 +1,51 @@
+.design__image {
+  background-image: url(../images/image.png);
+  width: 100%;
+  height: 440px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: scroll;
+}
+.design__background {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 440px;
+}
+.desing__container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.design__text {
+  text-align: center;
+  color: azure;
+  padding-top: 90px;
+}
+.desogn__text-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+}
+.design__text-seporator {
+  border-bottom: 1px solid #fff;
+  width: 170px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.design__text-subtitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  padding-top: 40px;
+  margin-bottom: 80px;
+}
+.design__text-border {
+  margin: 0 auto;
+  border: 2px solid #fff;
+  width: 370px;
+}
+.design__text-button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 50px;
+}
