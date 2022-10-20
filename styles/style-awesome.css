@@ -43,7 +43,15 @@ body {
   width: 100%;
   text-align: center;
 }
-.page__section:hover {
+.page__section-1:hover {
+  transform: scale(1.2);
+  transition-duration: 2s;
+}
+.page__section-1:first-child:hover {
+  transform: rotate(-45deg);
+  transition-duration: 2s;
+}
+.page__section-1:last-child:hover {
   transform: rotate(45deg);
   transition-duration: 2s;
 }
