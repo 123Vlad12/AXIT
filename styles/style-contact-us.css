@@ -1,0 +1,116 @@
+.Contact {
+}
+.Contact__container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.Contact__text {
+  text-align: center;
+}
+.Contact__text-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+.Contact__text-separator {
+  border-bottom: 1px solid #ec7979;
+  width: 170px;
+  margin: 0 auto;
+}
+.Contact__text-subtitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #86878b;
+  margin-top: 40px;
+}
+.Contact__column {
+  display: flex;
+  margin-top: 20px;
+}
+.Contact__form-left {
+  width: 50%;
+}
+.Contact__form-left__form {
+  display: flex;
+  flex-direction: column;
+}
+.contact__form-name {
+  margin: 0px 0 24px;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  resize: none;
+  outline: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 400;
+  border-color: #bdbdbd;
+}
+.contact__form-email {
+  margin: 24px 0;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  resize: none;
+  outline: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 400;
+  border-color: #bdbdbd;
+}
+.contact__form-password {
+  margin: 24px 0;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  resize: none;
+  outline: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 400;
+  border-color: #bdbdbd;
+}
+.Contact__form-right {
+  width: 50%;
+}
+.Contact__form-right__form {
+  display: flex;
+  justify-content: space-evenly;
+}
+.right__form-textarea {
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  resize: none;
+  outline: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  border-color: #bdbdbd;
+  border-bottom: 1px solid #bdbdbd;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+.Contact__button {
+  width: 370px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  padding: 14px 0;
+  background-color: #ec7979;
+  color: #fff;
+  border-color: #ec7979;
+}

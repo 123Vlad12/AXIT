@@ -21,10 +21,11 @@
   color: azure;
   padding-top: 90px;
 }
-.desogn__text-title {
+.design__text-title {
   font-family: "Raleway", sans-serif;
   font-size: 36px;
   line-height: 42px;
+  font-weight: 400;
 }
 .design__text-seporator {
   border-bottom: 1px solid #fff;
@@ -41,13 +42,15 @@
 }
 .design__text-border {
   margin: 0 auto;
-  border: 2px solid #fff;
-  width: 370px;
 }
 .design__text-button {
+  width: 370px;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   line-height: 50px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  border-color: #fff;
 }
 .desing:hover {
   transform: scale(1.2);
