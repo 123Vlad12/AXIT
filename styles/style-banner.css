@@ -1,0 +1,122 @@
+.banner {
+}
+.banner__image {
+  background-image: url("../images/image.svg");
+  width: 100%;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: scroll;
+}
+.banner__background {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 1000px;
+}
+.banner__container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.banner__title {
+}
+.banner__title-logo {
+}
+.banner__title-logo__logo {
+  margin-top: 230px;
+}
+.banner__title-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 48px;
+  line-height: 56px;
+  color: #fff;
+  margin-top: 72px;
+  width: 670px;
+}
+.banner__title-separator {
+  border-bottom: 1px solid #fff;
+  width: 170px;
+  margin-top: 55px;
+}
+.banner__title-subtitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fff;
+  margin-top: 42px;
+}
+.banner__title-button {
+  margin-top: 42px;
+}
+.banner__title-button-button {
+  width: 270px;
+  height: 58px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  border-color: #fff;
+}
+.banner__form {
+  width: 450px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.banner__form-title {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.banner__axit {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+.banner__box {
+  display: flex;
+  align-items: center;
+}
+.banner__form-name {
+  outline: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  color: #bdbdbd;
+  border-color: #bdbdbd;
+}
+.banner__form-email {
+  outline: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: 20px;
+  font-family: "Open Sans", sans-serif;
+  border-color: #bdbdbd;
+}
+.banner__form-password {
+  outline: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: 20px;
+  font-family: "Open Sans", sans-serif;
+  border-color: #bdbdbd;
+}
+.banner__form-button {
+  margin-top: 20px;
+  background-color: #ec7979;
+  border-radius: 0 0 5px 5px;
+  border: #ec7979;
+  line-height: 50px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+.banner__form-title-axit {
+  color: #ec7979;
+}
