@@ -1,0 +1,41 @@
+.social {
+  width: 100%;
+  background: #f8efef;
+}
+.social__container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.social-media {
+  display: flex;
+  justify-content: space-between;
+}
+.social-media__text {
+}
+.social-media__text-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0;
+}
+.social-media__text-subtitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #86878b;
+  margin: 0;
+  padding-top: 10px;
+  font-weight: 400;
+}
+.social-media__logo {
+  display: flex;
+}
+.social-media__logo-link {
+  margin-right: 40px;
+}
+
+.social-media__logo-link:hover {
+  transform: scale(1.2);
+  transition-duration: 2s;
+  background-color: blue;
+}
