@@ -1,0 +1,26 @@
+.header {
+  width: 100%;
+  background-color: black;
+}
+.header__container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.header__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__main-logo {
+  display: flex;
+}
+.header__main-nav {
+  display: flex;
+}
+.header__main-nav-item {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  color: #fff;
+  margin-right: 60px;
+}
