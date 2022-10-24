@@ -13,7 +13,7 @@
   line-height: 42px;
   font-weight: 400;
   text-transform: uppercase;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 .Contact__text-separator {
   border-bottom: 1px solid #ec7979;
@@ -30,7 +30,10 @@
 }
 .Contact__column {
   display: flex;
-  margin-top: 20px;
+  margin-top: 60px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .Contact__form-left {
   width: 50%;
@@ -99,8 +102,6 @@
   border-bottom: 1px solid #bdbdbd;
 }
 .button {
-  display: flex;
-  justify-content: center;
   margin: 40px 0;
 }
 .Contact__button {
@@ -113,4 +114,8 @@
   background-color: #ec7979;
   color: #fff;
   border-color: #ec7979;
+}
+.Contact__button:hover {
+  transform: scale(1.2);
+  transition-duration: 1s;
 }

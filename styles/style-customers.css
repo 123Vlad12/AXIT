@@ -46,7 +46,7 @@
   color: #86878b;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
-  margin-top: 25px;
+  padding: 25px;
 }
 
 .customers-column__avatar {
