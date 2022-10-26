@@ -2,8 +2,8 @@
 }
 .banner__image {
   background-image: url("../images/image.svg");
-  width: 100%;
-  height: 1000px;
+  max-width: 100%;
+  max-height: 1000px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -11,16 +11,12 @@
 }
 .banner__background {
   background-color: rgba(0, 0, 0, 0.5);
-  width: 100%;
+  max-width: 100%;
   height: 1000px;
 }
 .banner__container {
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
-}
-.banner__title {
-}
-.banner__title-logo {
 }
 .banner__title-logo__logo {
   margin-top: 172px;
@@ -31,7 +27,7 @@
   line-height: 56px;
   color: #fff;
   margin-top: 72px;
-  width: 670px;
+  max-width: 670px;
 }
 .banner__title-separator {
   border-bottom: 1px solid #fff;
@@ -59,6 +55,11 @@
   line-height: 24px;
   font-weight: 600;
 }
+.banner__title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 .banner__form {
   background-color: #fff;
   border-radius: 5px;
@@ -73,8 +74,8 @@
   text-transform: uppercase;
 }
 .banner__axit {
-  width: 470px;
-  height: 450px;
+  min-width: 470px;
+  min-height: 450px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -119,7 +120,7 @@
 }
 .banner__form-button {
   margin-top: 60px;
-  height: 50px;
+  min-height: 50px;
   background-color: #ec7979;
   border-radius: 0 0 5px 5px;
   border: #ec7979;
@@ -129,4 +130,60 @@
 }
 .banner__form-title-axit {
   color: #ec7979;
+}
+
+@media screen and (max-width: 1150px) {
+  .banner__box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .banner__title-logo__logo {
+    display: none;
+  }
+  .banner__title-text {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .banner__title-subtitle {
+    text-align: center;
+  }
+  .banner__form {
+    margin: 0 auto;
+  }
+  .banner__title {
+    align-items: center;
+  }
+  .banner__title-button {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 500px) and (orientation: portrait) {
+  .banner__title-logo__logo {
+    display: none;
+  }
+  .banner__title-text {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .banner__title-subtitle {
+    text-align: center;
+  }
+  .banner__form {
+    margin: 0 auto;
+  }
+  .banner__title {
+    align-items: center;
+  }
+  .banner__form-title {
+    font-size: 20px;
+  }
+  .banner__axit {
+    min-width: 295px;
+  }
+  .banner__title-button {
+    margin-bottom: 30px;
+  }
 }

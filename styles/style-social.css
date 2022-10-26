@@ -1,9 +1,9 @@
 .social {
-  width: 100%;
+  max-width: 100%;
   background: #f8efef;
 }
 .social__container {
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 .social-media {
@@ -11,6 +11,8 @@
   justify-content: space-between;
 }
 .social-media__text {
+  display: flex;
+  flex-direction: column;
 }
 .social-media__text-title {
   font-family: "Open Sans", sans-serif;
@@ -39,4 +41,47 @@
   transform: scale(1.2);
   transition-duration: 2s;
   background-color: blue;
+}
+@media screen and (max-width: 1150px) and (orientation: landscape) {
+  .social-media__logo-link {
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 760px) and (orientation: portrait) {
+  .social-media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .social-media__logo-link {
+    margin-right: 10px;
+  }
+  .social-media__text-title {
+    font-size: 18px;
+  }
+  .social-media__text-subtitle {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 500px) and (orientation: portrait) {
+  .social-media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+  }
+  .social-media__logo-link {
+    max-width: 45px;
+    margin-right: 0;
+  }
+  .social-media__text {
+    display: flex;
+    flex-direction: column;
+  }
+  .social-media__text-title {
+    text-align: center;
+  }
+  .social-media__text-subtitle {
+    text-align: center;
+  }
 }

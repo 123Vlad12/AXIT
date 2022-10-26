@@ -1,9 +1,9 @@
 .header {
-  width: 100%;
+  max-width: 100%;
   background-color: black;
 }
 .header__container {
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 .header__main {
@@ -23,4 +23,40 @@
   line-height: 19px;
   color: #fff;
   margin-right: 60px;
+}
+.header-icon {
+  display: none;
+}
+@media screen and (max-width: 1190px) {
+  .header__main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .header__main-logo {
+    display: flex;
+  }
+  .header__main-nav {
+    display: flex;
+  }
+}
+@media screen and (max-width: 750px) and (orientation: portrait) {
+  .header__main-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .header__main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 500px) and (orientation: portrait) {
+  .header-icon {
+    display: flex;
+  }
+  .header__main-nav {
+    display: none;
+  }
 }
