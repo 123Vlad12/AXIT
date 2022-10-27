@@ -4,16 +4,16 @@ body {
 
 .page {
   margin-top: 100px;
-  width: 100%;
+  max-width: 100%;
 }
 
 .page-1 {
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 
 .page .page__text {
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
   font-family: "Raleway";
   font-style: normal;
@@ -40,8 +40,9 @@ body {
 }
 
 .page__section {
-  display: inline-block;
-  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
   text-align: center;
   margin: 50px 0 40px;
 }
@@ -59,7 +60,7 @@ body {
 }
 
 .page__section-1 {
-  width: 33%;
+  max-width: 33%;
   display: inline-block;
 }
 
@@ -70,4 +71,43 @@ body {
 
 h3 {
   font-family: "Open Sans", sans-serif;
+}
+@media screen and (max-width: 1090px) and (orientation: landscape) {
+  .page__section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 600px) and (orientation: portrait) {
+  .page__section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 20px;
+  }
+  .page {
+    margin-top: 50px;
+  }
+  .page .page__text {
+    margin: 0 auto;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .page__text-1 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878b;
+    margin: 20px;
+  }
+  .page__section-1-image {
+    width: 100px;
+  }
 }

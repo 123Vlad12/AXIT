@@ -1,5 +1,5 @@
 .footer {
-  height: 164px;
+  min-height: 164px;
   background-color: black;
   margin: 0 auto;
 }
@@ -16,4 +16,17 @@ p {
 
 a {
   color: black;
+}
+@media screen and (max-width: 1000px) and (orientation: landscape) {
+  .footer__icon {
+    width: 45px;
+  }
+}
+@media screen and (max-width: 755px) and (orientation: portrait) {
+  .footer__icon {
+    width: 35px;
+  }
+  p {
+    font-size: 14px;
+  }
 }

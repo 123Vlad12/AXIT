@@ -1,5 +1,5 @@
 .tabs {
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
   margin-top: 100px;
 }
@@ -10,7 +10,7 @@
   border-top: 1px solid#C6CBCD;
   border-right: 1px solid#C6CBCD;
   text-align: center;
-  width: 180px;
+  min-width: 180px;
   padding: 10px 0;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -19,7 +19,7 @@
 .block__tabs2 {
   display: inline-block;
   border-bottom: 1px solid#C6CBCD;
-  width: 180px;
+  min-width: 180px;
   text-align: center;
   padding: 10px 0;
   margin: -5px;
@@ -33,12 +33,12 @@
   border-left: 1px solid#c6cbcd;
   border-bottom: 1px solid#c6cbcd;
   border-right: 1px solid#c6cbcd;
-  width: 100%;
+  max-width: 100%;
+  display: flex;
 }
 
 .about-titel {
-  width: 50%;
-  display: inline-block;
+  max-width: 50%;
   vertical-align: top;
 }
 
@@ -69,10 +69,68 @@
 }
 
 .about__image {
-  width: 49%;
-  display: inline-block;
+  max-width: 49%;
 }
 
 .about__image img {
   padding-left: 111px;
+}
+@media screen and (max-width: 1190px) {
+  .about__image {
+    display: none;
+  }
+  .about-titel__titel {
+    margin: 47px 0 47px 10px;
+  }
+  .about-titel__subtitle {
+    margin: 47px 0 47px 10px;
+  }
+  .about-titel__button {
+    width: 250px;
+    height: 50px;
+    margin: 0 10px auto;
+  }
+  .special {
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 555px) and (orientation: portrait) {
+  .block__tabs2 {
+    display: inline-block;
+    border-bottom: 1px solid#C6CBCD;
+    min-width: 88px;
+    text-align: center;
+    padding: 10px 10px;
+  }
+  .block__tabs .block__tabs1 {
+    display: inline-block;
+    border-left: 1px solid#C6CBCD;
+    border-top: 1px solid#C6CBCD;
+    border-right: 1px solid#C6CBCD;
+    text-align: center;
+    min-width: 88px;
+    padding: 10px 10px;
+  }
+  .about-titel__titel {
+    margin: 25px 0 25px 10px;
+    font-size: 25px;
+  }
+  .about-titel__subtitle {
+    margin: 20px 0 20px 10px;
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .about {
+    border-left: 1px solid#c6cbcd;
+    border-bottom: 1px solid#c6cbcd;
+    border-right: 1px solid#c6cbcd;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .about-titel__button {
+    width: 200px;
+    height: 50px;
+    margin: 10px -20px;
+  }
 }
